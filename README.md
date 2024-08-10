@@ -10,9 +10,6 @@
 >* **Code Quality**: Ensure that your code is readable, maintainable, and follows best practices.
 
 ---
-
-### Google Meet Link : [Join Meeting](https://meet.google.com/pmp-kifc-vht)
----
 ### Project Description : 
 `To be decided`
 
@@ -22,7 +19,10 @@
 
 ---
 ### Project Roles :
-`To be decided`
+[**Savio Winson**](https://github.com/WINSAVIO) : *Project Management*
+[**Swastik Sharma**](https://github.com/VoidAI2003): *Full Stack Development*
+[**Reena Moncy**](https://github.com/reenamoncy) : *Front End Development*
+[**Parth Gopakumar**](https://github.com/Rudrahunter):*Documentation MA
 
 ---
 > **Warning :** 

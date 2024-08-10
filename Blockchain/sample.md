@@ -1,0 +1,1 @@
+# This folder is for handling Ethereum Related code and other docs

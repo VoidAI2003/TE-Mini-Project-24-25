@@ -11,17 +11,33 @@
 
 ---
 ### Project Description : 
-`To be decided`
+Develop a SaaS platform leveraging AI, ML, and blockchain to enhance supply chain transparency
+and efficiency. Features include AI-driven inventory management, real-time tracking, supplier
+verification, demand prediction, fraud detection, smart contracts, sustainability tracking, logistics
+optimization, incident management, and a user-friendly dashboard.
+
+---
+### Project Objectives : 
+* Enhance supply chain transparency and efficiency using AI, ML, and blockchain.
+* Optimize inventory management and logistics through AI-driven solutions.
+* Ensure data integrity and traceability with blockchain technology.
+* Detect and prevent fraud using AI-based anomaly detection.
 
 ---
 ### Project Timeline :
-`To be decided`
+|Sr.No.| Task Name | Assignees | Date Started | Date Ended |
+|---|---|---|---|---|---|
+|1| Communication Phase | All | `Refer Sign Sheet`|`Refer Sign Sheet`|
+
 
 ---
 ### Project Roles :
 [**Savio Winson**](https://github.com/WINSAVIO) : *Project Management*
+
 [**Swastik Sharma**](https://github.com/VoidAI2003): *Full Stack Development*
+
 [**Reena Moncy**](https://github.com/reenamoncy) : *Front End Development*
+
 [**Parth Gopakumar**](https://github.com/Rudrahunter):*Documentation MA
 
 ---

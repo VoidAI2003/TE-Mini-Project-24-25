@@ -38,7 +38,7 @@ optimization, incident management, and a user-friendly dashboard.
 
 [**Reena Moncy**](https://github.com/reenamoncy) : *Front End Development*
 
-[**Parth Gopakumar**](https://github.com/Rudrahunter):*Documentation MA
+[**Parth Gopakumar**](https://github.com/Rudrahunter):*Documentation Management*
 
 ---
 > **Warning :** 

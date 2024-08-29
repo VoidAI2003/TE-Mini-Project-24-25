@@ -27,7 +27,11 @@ optimization, incident management, and a user-friendly dashboard.
 ### Project Timeline :
 |Sr.No.| Task Name | Assignees | Date Started | Date Ended |
 |---|---|---|---|---|
-|1| Communication Phase | All | `Refer Sign Sheet`|`Refer Sign Sheet`|
+|1| Proposal Submission & Discussion | All | 18/7/24|18/7/24|
+|2| Topic Finalization | All | 18/7/24|25/7/24|
+|3|Literature Survey/Existing System|All|25/7/24|1/8/24|
+|4|Gap Identification & problem Statement|All|1/8/24|8/8/24|
+|5|Proposed System | All| 8/8/24|29/8/24|
 
 
 ---

@@ -1,3 +1,6 @@
+
+![SmartChainLogo](Frame 27.png)
+
 # TE-Mini-Project-24-25
 ### This is the main git repository for TE Miniproject
 ### Points to keep in mind : 

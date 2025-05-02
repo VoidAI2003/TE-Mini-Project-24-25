@@ -1,0 +1,9 @@
+/node_modules
+.env
+/artifacts
+/cache
+/contracts
+/ignition
+.package-lock.json
+
+

@@ -1,0 +1,48 @@
+{
+  "name": "smartchain-backend",
+  "version": "1.0.0",
+  "description": "SmartChain Backend with Blockchain Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "node": "npx hardhat node",
+    "add-test-data": "npx hardhat run scripts/addTestData.js --network localhost",
+    "verify-data": "npx hardhat run scripts/verifyData.js --network localhost",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "firebase": "^11.6.1",
+    "firebase-admin": "^13.3.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.10",
+    "chai": "^4.2.0",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.23.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "nodemon": "^3.1.10",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.0",
+    "typescript": "^5.8.3"
+  }
+}

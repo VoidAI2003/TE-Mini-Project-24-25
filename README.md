@@ -32,6 +32,9 @@ optimization, incident management, and a user-friendly dashboard.
 |3|Literature Survey/Existing System|All|25/7/24|1/8/24|
 |4|Gap Identification & problem Statement|All|1/8/24|8/8/24|
 |5|Proposed System | All| 8/8/24|29/8/24|
+|6|Implementation 0 - 100 % |All|1/9/24|6/3/25|
+|7|Paper Submission|All|27/4/25|27/4/25|
+|8|Report Submission|All|28/4/25|28/4/25|
 
 
 ---
@@ -45,8 +48,112 @@ optimization, incident management, and a user-friendly dashboard.
 [**Parth Gopakumar**](https://github.com/Rudrahunter):*Documentation Management*
 
 ---
-> **Warning :** 
-> **Anything below this must be done after project completion.**
----
 ### Steps for Installation
-`< To  Be Added > `
+
+### For SmartChain Portal: 
+
+In a new terminal window/tab: 
+
+```bash
+cd Admin Portal
+npm install
+cd ..
+cd Client Portal
+npm install
+cd..
+cd Backend 
+npm install
+cd ..
+```
+
+This will install all the necessary dependencies and libraries needed to run this file. 
+
+>**Note**: To run the portals and the server you need to setup firebase and metamask accounts for your version of the application, also you need to have a model deployment endpoint service account key to access the models hosted on Vertex AI ( [Google Cloud Platform](https://cloud.google.com/?hl=en)).
+
+## Setting up Blockchain and running the portals
+
+### 1. Start the Local Blockchain (Hardhat)
+Open a terminal and run:
+
+```bash
+cd Backend
+npx hardhat node
+```
+
+This will start a local blockchain on `http://127.0.0.1:8545`.
+
+---
+
+## 2. Deploy the Smart Contract
+In a new terminal window/tab:
+
+```bash
+cd Backend
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+---
+
+## 3. Add Test Data to the Blockchain
+In the same terminal:
+
+```bash
+npx hardhat run scripts/addTestData.js --network localhost
+```
+
+To verify blockchain data:
+```bash
+npx hardhat run scripts/verifyData.js --network localhost
+```
+
+---
+
+## 4. Start the Backend Server
+In a new terminal window/tab:
+
+```bash
+cd Backend
+npm run dev
+```
+
+The backend will run on `http://localhost:4000`.
+
+---
+
+## 5. Start the Frontend (Admin Portal)
+In a new terminal window/tab:
+
+```bash
+cd "Admin Portal"
+npm run dev
+```
+
+The frontend will run on `http://localhost:3000` (or the next available port).
+
+---
+
+## 6. Access the Application
+- Open your browser and go to `http://localhost:3000` to use the Admin Portal.
+- You can interact with the blockchain, add/view transactions, and more.
+
+---
+
+## 7. (Optional) View Blockchain Data
+To print all blockchain transactions in the terminal:
+
+```bash
+cd Backend
+npx hardhat run scripts/verifyData.js --network localhost
+```
+
+---
+
+## Troubleshooting
+- If you see `EADDRINUSE`, the blockchain node is already running.
+- If you get a 401 error, log out and log in again in the frontend.
+- Make sure all terminals are in the correct directories before running commands.
+
+---
+
+
+>**Note**: This portal is still under heavy development

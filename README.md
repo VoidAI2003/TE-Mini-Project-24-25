@@ -1,5 +1,5 @@
 
-![SmartChainLogo](Frame 27.png)
+![Screenshot](https://raw.githubusercontent.com/VoidAI2003/TE-Mini-Project-24-25/main/Frame 27.png)
 
 # TE-Mini-Project-24-25
 ### This is the main git repository for TE Miniproject
